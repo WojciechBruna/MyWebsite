@@ -14,10 +14,11 @@ body {
 }
 
 nav {
-
+    background-color: whitesmoke;
     width: 100%;
     height: 60px;
     position: sticky;
+    padding-top: 10px;
     margin-top: 5%;
     left: 0;
     top: 0;
@@ -50,7 +51,7 @@ nav ul li a {
 
 nav ul li a:hover {
 
-   font-weight: bold;
+   font-weight:300;
 }
 
 .brand_name {
@@ -120,6 +121,24 @@ nav ul li a:hover {
     
 
 }
+.my_photos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photosection {
+    width: 30%;
+    height: 30%;
+    background-position: center center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
 
 .instagram{
     height: 25px;
@@ -137,7 +156,7 @@ nav ul li a:hover {
     position: relative;
 }
  
-.photo-gallery {
+.photointro-gallery {
  flex-wrap: wrap;
 }
 
@@ -145,6 +164,16 @@ nav ul li a:hover {
     width: 50%;
     height: 20%;
 }
+
+.my_photos {
+    flex-wrap: wrap;
+}
+
+.photosection  {
+    width: 50%;
+    height: 20%;
+}
+
 .entry {
     max-width: 90%;
     width: 100%;
@@ -173,7 +202,7 @@ ul {
     padding: 30px 20px;
     transition: all .9s ease;
     left: -100%;
-    margin-top: 350px;
+    margin-top: 200px;
   
 }
 nav ul li {
